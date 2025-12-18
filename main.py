@@ -20,6 +20,7 @@ from src.absences_history.api import get_absences_history
 from src.timekeeping_entries.history.api import get_timekeeping_entries_history
 from src.timekeeping_entries.api import get_timekeeping_entries
 from src.deleted_timekeeping_entries.api import get_deleted_timekeeping_entries
+from src.timekeeping_statuses.api import get_timekeeping_statuses
 from src.cost_code_controls.api import get_cost_code_controls
 from src.company_classifications.api import get_company_classifications
 from src.company_trades.api import get_company_trades
@@ -469,6 +470,41 @@ def run_tests():
     #     logging.error("Failed to fetch absence history with date params.")
 
     # =================================================================
+    # ================= TIMEKEEPING ENTRIES API CALLS =================
+    # =================================================================
+
+    # --- Test get_timekeeping_entries (all parameters) ---
+    # Uncomment to run (adjust parameters as needed):
+    # last_updated_timekeeping = (datetime.utcnow() - timedelta(days=30)).isoformat() + "Z"
+    # timekeeping_entries_all_params = get_timekeeping_entries(
+    #     page_size=10,
+    #     job_number="SOME_JOB_NUMBER", # CHANGE THIS
+    #     start_date="2023-01-01", # CHANGE THIS
+    #     end_date="2023-01-31", # CHANGE THIS
+    #     is_approved=True,
+    #     status="APPROVED",
+    #     employee="SOME_EMPLOYEE_ID", # CHANGE THIS
+    #     foreman="SOME_FOREMAN_ID", # CHANGE THIS
+    #     last_updated=last_updated_timekeeping,
+    #     include_deleted=False
+    # )
+    # if timekeeping_entries_all_params:
+    #     save_output(timekeeping_entries_all_params, "timekeeping_entries_all_params")
+    # else:
+    #     logging.error("Failed to fetch timekeeping entries with all params.")
+
+    # --- Test get_timekeeping_entries (date parameters) ---
+    # Uncomment to run (adjust parameters as needed):
+    # timekeeping_entries_date_params = get_timekeeping_entries(
+    #     start_date="2023-02-01",
+    #     end_date="2023-02-28"
+    # )
+    # if timekeeping_entries_date_params:
+    #     save_output(timekeeping_entries_date_params, "timekeeping_entries_date_params")
+    # else:
+    #     logging.error("Failed to fetch timekeeping entries with date params.")
+
+    # =================================================================
     # =============== TIMEKEEPING ENTRIES HISTORY API CALLS =============
     # =================================================================
 
@@ -532,6 +568,31 @@ def run_tests():
 
     # else:
     #     logging.error("Failed to fetch deleted timekeeping entries with date params.")
+
+    # =================================================================
+    # ================ TIMEKEEPING STATUSES API CALLS =================
+    # =================================================================
+
+    # --- Test get_timekeeping_statuses (all parameters) ---
+    # Uncomment to run (adjust parameters as needed):
+    # last_updated_statuses = (datetime.utcnow() - timedelta(days=30)).isoformat() + "Z"
+    # timekeeping_statuses_all_params = get_timekeeping_statuses(
+    #     page_size=10,
+    #     last_updated=last_updated_statuses,
+    #     is_active=True
+    # )
+    # if timekeeping_statuses_all_params:
+    #     save_output(timekeeping_statuses_all_params, "timekeeping_statuses_all_params")
+    # else:
+    #     logging.error("Failed to fetch timekeeping statuses with all params.")
+
+    # --- Test get_timekeeping_statuses (simple list) ---
+    # Uncomment to run:
+    # timekeeping_statuses_list = get_timekeeping_statuses()
+    # if timekeeping_statuses_list:
+    #     save_output(timekeeping_statuses_list, "timekeeping_statuses_list")
+    # else:
+    #     logging.error("Failed to fetch timekeeping statuses list.")
 
     # =================================================================
     # ================= COST CODE CONTROLS API CALLS ==================
