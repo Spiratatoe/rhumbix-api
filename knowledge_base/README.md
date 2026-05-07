@@ -29,38 +29,70 @@ pip install -r requirements.txt
 
 ---
 
-## 2. Repo structure
-
-```
-src/
-  config.py                 # API_KEY, BASE_URL from env
-  utils.py                  # get_all_paginated_results(url, headers, params)
-  <resource>/api.py         # one module per Rhumbix resource (employees, projects, ...)
-  timekeeping_entries/
-    api.py                  # /timekeeping_entries/
-    history/api.py          # /timekeeping_entries/history/  (nested module)
-main.py                     # commented test runner; uncomment a block to execute
-output/                     # JSON + CSV dumps from previous runs (sample payloads)
-```
-
----
-
 ## 3. Calling pattern (uniform across all resources)
 
-Every `src/<resource>/api.py` exposes one function: `get_<resource>(...)`.
+Every `src/<resource>/api.py` follows this template — `employees` shown as the canonical example. To add a new endpoint, copy this and swap the constant, function name, and kwargs.
 
 ```python
-from src.employees.api import get_employees
+EMPLOYEES_ENDPOINT = "/employees/"
 
-rows = get_employees(is_active=True, page_size=100)   # -> List[Dict]
+
+def get_employees(
+    page_size: Optional[int] = None,
+    last_updated: Optional[str] = None,
+    is_active: Optional[bool] = None,
+    company_supplied_id: Optional[List[str]] = None,
+    group_id: Optional[List[int]] = None,
+    include_subgroups: Optional[bool] = None,
+    email_address: Optional[str] = None,
+    phone_number: Optional[str] = None,
+    include_deleted: Optional[bool] = None,
+) -> List[Dict]:
+    """
+    Retrieves a list of employees from the Rhumbix API.
+
+    Args:
+        page_size (Optional[int]): Number of results to return per page.
+        last_updated (Optional[str]): Retrieve data updated after this datetime.
+        is_active (Optional[bool]): Filter by active status.
+        company_supplied_id (Optional[List[str]]): Filter by one or more company-supplied IDs.
+        group_id (Optional[List[int]]): Filter by one or more group IDs.
+        include_subgroups (Optional[bool]): If true and group_id is supplied, include subgroups.
+        email_address (Optional[str]): Filter by email address.
+        phone_number (Optional[str]): Filter by phone number.
+        include_deleted (Optional[bool]): If true, retrieve deleted records.
+
+    Returns:
+        List[Dict]: A list of employee dictionaries.
+    """
+    url = f"{BASE_URL}{EMPLOYEES_ENDPOINT}"
+    headers = {'x-api-key': API_KEY, 'Content-Type': 'application/json'}
+    params = {
+        "page_size": page_size,
+        "last_updated": last_updated,
+        "is_active": is_active,
+        "company_supplied_id": company_supplied_id,
+        "group_id": group_id,
+        "include_subgroups": include_subgroups,
+        "email_address": email_address,
+        "phone_number": phone_number,
+        "include_deleted": include_deleted,
+    }
+
+    # Remove None values from params
+    params = {k: v for k, v in params.items() if v is not None}
+
+    results = get_all_paginated_results(url, headers, params=params)
+
+    return results
 ```
 
-Internally each function:
+Invariants every module obeys:
 
-1. Builds URL `f"{BASE_URL}{ENDPOINT}"` (e.g. `/employees/`).
-2. Sets headers `{"x-api-key": API_KEY, "Content-Type": "application/json"}`.
-3. Builds a `params` dict from kwargs and **strips `None` values**.
-4. Calls `get_all_paginated_results(url, headers, params)` from `src/utils.py`.
+1. `<RESOURCE>_ENDPOINT` constant holds the path appended to `BASE_URL`.
+2. Headers are always `{"x-api-key": API_KEY, "Content-Type": "application/json"}`.
+3. Every filter is a kwarg defaulting to `None`; `None` values are stripped before the request.
+4. The function returns `get_all_paginated_results(url, headers, params=params)` — a flat `List[Dict]` across all pages.
 
 ### Pagination contract (`src/utils.py`)
 
@@ -76,13 +108,7 @@ The Rhumbix API returns `{"results": [...], "next": "<full_url_or_null>"}`. The 
 
 > **Important:** an empty list means *either* "no matching records" *or* "request failed". Check logs (level `INFO`) to distinguish. Functions never raise to the caller.
 
-### Adding a new endpoint
 
-1. Create `src/<resource>/api.py` with a `get_<resource>(...)` function following the pattern above.
-2. Add an entry under `endpoints/` in this knowledge base.
-3. (Optional) Add a commented test block in `main.py`'s `run_tests()`.
-
----
 
 ## 4. Endpoint index
 
