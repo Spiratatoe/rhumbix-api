@@ -32,6 +32,9 @@ def get_all_paginated_results(url: str, headers: Dict[str, str], params: Optiona
 
         except requests.exceptions.RequestException as e:
             logging.error(f"Error fetching data from Rhumbix API: {e}")
+            if hasattr(e, 'response') and e.response is not None:
+                logging.error(f"Response status: {e.response.status_code}")
+                logging.error(f"Response body: {e.response.text}")
             return []  # Return empty list on error
 
     return all_results
