@@ -1,0 +1,197 @@
+[
+  {
+    "work_shift_key": "RJXFVCTF",
+    "created_on": "2026-04-15T20:34:14.945174Z",
+    "shift_start_time": "2026-04-13T12:00:00.000000Z",
+    "shift_end_time": "2026-04-13T20:00:00.000000Z",
+    "shift_date": "2026-04-13",
+    "employee": "112742",
+    "entry_name": "Premium Shift",
+    "entry_store": {
+      "hours": 8,
+      "premium": "Second Shift"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8560604,
+    "job_number": "210230",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.666621Z"
+  },
+  {
+    "work_shift_key": "9W5PEVFF",
+    "created_on": "2026-04-15T20:31:34.477551Z",
+    "shift_start_time": "2026-04-14T11:00:00.000000Z",
+    "shift_end_time": "2026-04-14T22:30:00.000000Z",
+    "shift_date": "2026-04-14",
+    "employee": "112742",
+    "entry_name": "Premium Shift",
+    "entry_store": {
+      "hours": 10.5,
+      "premium": "Second Shift"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8560605,
+    "job_number": "210230",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.667046Z"
+  },
+  {
+    "work_shift_key": "V665K53E",
+    "created_on": "2026-04-15T22:58:28.548017Z",
+    "shift_start_time": "2026-04-15T12:00:00.000000Z",
+    "shift_end_time": "2026-04-15T20:00:00.000000Z",
+    "shift_date": "2026-04-15",
+    "employee": "265973",
+    "entry_name": "A/A Type",
+    "entry_store": {
+      "a_atype": "Sick Leave (EE) - Paid"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8561292,
+    "job_number": "845087",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.667769Z"
+  },
+  {
+    "work_shift_key": "T5PD6ZUE",
+    "created_on": "2026-04-16T13:58:45.487508Z",
+    "shift_start_time": "2026-04-15T12:00:00.000000Z",
+    "shift_end_time": "2026-04-15T20:00:00.000000Z",
+    "shift_date": "2026-04-15",
+    "employee": "106507",
+    "entry_name": "A/A Type",
+    "entry_store": {
+      "a_atype": "Sick Leave (EE) - Paid"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8563289,
+    "job_number": "845087",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.668102Z"
+  },
+  {
+    "work_shift_key": "7GUTZDQZ",
+    "created_on": "2026-04-16T20:55:19.127760Z",
+    "shift_start_time": "2026-04-15T12:00:00.000000Z",
+    "shift_end_time": "2026-04-15T20:00:00.000000Z",
+    "shift_date": "2026-04-15",
+    "employee": "112742",
+    "entry_name": "Premium Shift",
+    "entry_store": {
+      "hours": 10.5,
+      "premium": "Second Shift"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8565380,
+    "job_number": "210230",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.668776Z"
+  },
+  {
+    "work_shift_key": "39XCT29Q",
+    "created_on": "2026-04-16T21:02:42.965865Z",
+    "shift_start_time": "2026-04-16T11:00:00.000000Z",
+    "shift_end_time": "2026-04-16T22:30:00.000000Z",
+    "shift_date": "2026-04-16",
+    "employee": "112742",
+    "entry_name": "Premium Shift",
+    "entry_store": {
+      "hours": 10.5,
+      "premium": "Second Shift"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8567386,
+    "job_number": "210230",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.669437Z"
+  },
+  {
+    "work_shift_key": "PE8YF8K6",
+    "created_on": "2026-04-18T11:40:00.969985Z",
+    "shift_start_time": "2026-04-17T11:00:00.000000Z",
+    "shift_end_time": "2026-04-17T22:30:00.000000Z",
+    "shift_date": "2026-04-17",
+    "employee": "112742",
+    "entry_name": "Premium Shift",
+    "entry_store": {
+      "hours": 11,
+      "premium": "Second Shift"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8572920,
+    "job_number": "210230",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.669929Z"
+  },
+  {
+    "work_shift_key": "RAVWVFTU",
+    "created_on": "2026-04-17T14:00:06.959096Z",
+    "shift_start_time": "2026-04-17T12:00:00.000000Z",
+    "shift_end_time": "2026-04-17T20:00:00.000000Z",
+    "shift_date": "2026-04-17",
+    "employee": "273961",
+    "entry_name": "A/A Type",
+    "entry_store": {
+      "a_atype": "Sick Leave (EE) - Paid"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8573119,
+    "job_number": "845087",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.670280Z"
+  },
+  {
+    "work_shift_key": "J9465KRX",
+    "created_on": "2026-04-20T14:48:14.179916Z",
+    "shift_start_time": "2026-04-17T12:00:00.000000Z",
+    "shift_end_time": "2026-04-17T20:00:00.000000Z",
+    "shift_date": "2026-04-17",
+    "employee": "295946",
+    "entry_name": "A/A Type",
+    "entry_store": {
+      "a_atype": "Sick Leave (EE) - Paid"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8580663,
+    "job_number": "107858",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.671226Z"
+  },
+  {
+    "work_shift_key": "929MBC4S",
+    "created_on": "2026-04-15T13:02:53.567535Z",
+    "shift_start_time": "2026-04-14T12:00:00.000000Z",
+    "shift_end_time": "2026-04-14T20:00:00.000000Z",
+    "shift_date": "2026-04-14",
+    "employee": "999040",
+    "entry_name": "A/A Type",
+    "entry_store": {
+      "a_atype": "Sick Leave (EE) - Paid"
+    },
+    "is_approved": false,
+    "status": "EXPORTED",
+    "timezone": "America/Chicago",
+    "id": 8580883,
+    "job_number": "107858",
+    "deleted_on": null,
+    "last_updated": "2026-04-20T18:37:09.671350Z"
+  }
+]

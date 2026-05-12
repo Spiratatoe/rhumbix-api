@@ -1,0 +1,51 @@
+[
+  {
+    "id": 29847,
+    "name": "A/A Type",
+    "schema": {
+      "type": "object",
+      "title": "",
+      "required": [
+        "a_atype"
+      ],
+      "properties": {
+        "a_atype": {
+          "enum": [
+            "Vac Trade",
+            "Vac Union",
+            "Holiday (Company) - Paid",
+            "Sick Leave (EE) - Paid",
+            "Disaster Relief Paid",
+            "Floating Holiday"
+          ],
+          "type": "string",
+          "title": "A/AType"
+        }
+      },
+      "description": ""
+    }
+  },
+  {
+    "id": 34349,
+    "name": "Premium Shift",
+    "schema": {
+      "type": "object",
+      "title": "Premium Shift",
+      "properties": {
+        "hours": {
+          "type": "number",
+          "title": "Hours"
+        },
+        "premium": {
+          "enum": [
+            "Second Shift",
+            "Third Shift"
+          ],
+          "type": "string",
+          "title": "Premium"
+        }
+      },
+      "description": ""
+    }
+  }
+]

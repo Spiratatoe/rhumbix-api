@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Done with Work",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Holiday",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Changed Foreman",
+    "code": "",
+    "is_active": false,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Leave Early",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "I Don't Know",
+    "code": "",
+    "is_active": false,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Training",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Late Arrival",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Sick",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Injured",
+    "code": "",
+    "is_active": true,
+    "created_by": "M346F8P"
+  },
+  {
+    "name": "Other",
+    "code": "",
+    "is_active": false,
+    "created_by": "M346F8P"
+  }
+]

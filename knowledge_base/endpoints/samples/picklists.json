@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Certification",
+    "field_name": "certification",
+    "is_active": true,
+    "kind": "EMPLOYEE_ATTRIBUTE"
+  },
+  {
+    "name": "License",
+    "field_name": "license",
+    "is_active": true,
+    "kind": "EMPLOYEE_ATTRIBUTE"
+  },
+  {
+    "name": "Union",
+    "field_name": "union",
+    "is_active": true,
+    "kind": "EMPLOYEE_ATTRIBUTE"
+  }
+]

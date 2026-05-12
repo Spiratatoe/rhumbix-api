@@ -1,0 +1,156 @@
+[
+  {
+    "company_supplied_id": "630009",
+    "job_numbers": [
+      "523119"
+    ],
+    "standard_time": 3361,
+    "over_time": 4278,
+    "double_time": 5623,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "976206",
+    "job_numbers": [
+      "609189"
+    ],
+    "standard_time": 4137,
+    "over_time": 5970,
+    "double_time": 7802,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "772431",
+    "job_numbers": [
+      "206867",
+      "259028",
+      "547741",
+      "112811",
+      "857106",
+      "594879",
+      "109267",
+      "463131",
+      "712503",
+      "110481",
+      "561183",
+      "102041",
+      "497799",
+      "214174",
+      "933724",
+      "591145",
+      "754173",
+      "298300",
+      "112858",
+      "441099",
+      "232279",
+      "940623",
+      "493107",
+      "244023",
+      "304575",
+      "109781",
+      "175699",
+      "678978",
+      "933841",
+      "143244",
+      "649617",
+      "849035",
+      "637786",
+      "220396",
+      "112334"
+    ],
+    "standard_time": 0,
+    "over_time": 0,
+    "double_time": 0,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "772431",
+    "job_numbers": [
+      "523119"
+    ],
+    "standard_time": 4697,
+    "over_time": 6007,
+    "double_time": 7929,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "772431",
+    "job_numbers": [
+      "188122"
+    ],
+    "standard_time": 5000,
+    "over_time": 7100,
+    "double_time": 9400,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "772431",
+    "job_numbers": [
+      "206303"
+    ],
+    "standard_time": 6250,
+    "over_time": 8750,
+    "double_time": 0,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "772431",
+    "job_numbers": [
+      "347882",
+      "966448"
+    ],
+    "standard_time": 7500,
+    "over_time": 7500,
+    "double_time": 7500,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "825294",
+    "job_numbers": [
+      "649617"
+    ],
+    "standard_time": 3800,
+    "over_time": 5400,
+    "double_time": 7200,
+    "premium_double_time": 3400,
+    "premium_over_time": 1600
+  },
+  {
+    "company_supplied_id": "689309",
+    "job_numbers": [
+      "175699",
+      "318355"
+    ],
+    "standard_time": 0,
+    "over_time": 0,
+    "double_time": 0,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  },
+  {
+    "company_supplied_id": "747374",
+    "job_numbers": [
+      "624837",
+      "649617",
+      "609189",
+      "143244",
+      "564551",
+      "848139",
+      "678978",
+      "497799",
+      "220396"
+    ],
+    "standard_time": 0,
+    "over_time": 0,
+    "double_time": 0,
+    "premium_double_time": 0,
+    "premium_over_time": 0
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "uuid": "9951f971-c6c5-10e6-99bb-35212c7264d9",
+    "children_ids": [],
+    "description": "The top-level group that serves as the parent for all subgroups.",
+    "employees": [
+      "F9X9V733U",
+      "8537819",
+      "7182253",
+      "7BE6QFP",
+      "8GG3UC3R",
+      "9818264",
+      "665675",
+      "9055138"
+    ],
+    "id": 734,
+    "name": "Foundry Works",
+    "parent_id": null,
+    "grants_employee_access": true,
+    "grants_project_access": true,
+    "cohorts": [],
+    "cico_location_employee_overrides": [],
+    "cico_photo_employee_overrides": [],
+    "cico_location_cohort_overrides": [],
+    "cico_photo_cohort_overrides": []
+  }
+]

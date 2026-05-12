@@ -1,0 +1,102 @@
+[
+  {
+    "work_shift_key": "74FXZJKV",
+    "work_shift_date": "2018-01-22",
+    "creator": "113113",
+    "job_numbers": [
+      "661482"
+    ],
+    "start_time": "2018-01-22T12:00:00.000000Z",
+    "end_time": "2018-01-22T22:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "3H5ZW85B",
+    "work_shift_date": "2018-01-24",
+    "creator": "747374",
+    "job_numbers": [
+      "143244"
+    ],
+    "start_time": "2018-01-24T13:00:00.000000Z",
+    "end_time": "2018-01-24T21:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "AKNXKMZF",
+    "work_shift_date": "2018-01-22",
+    "creator": "747374",
+    "job_numbers": [
+      "143244"
+    ],
+    "start_time": "2018-01-22T13:00:00.000000Z",
+    "end_time": "2018-01-22T22:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "AW6WW4T3",
+    "work_shift_date": "2018-01-23",
+    "creator": "113113",
+    "job_numbers": [
+      "661482"
+    ],
+    "start_time": "2018-01-23T12:00:00.000000Z",
+    "end_time": "2018-01-23T22:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "4VKHJPAZ",
+    "work_shift_date": "2018-01-23",
+    "creator": "689309",
+    "job_numbers": [
+      "175699"
+    ],
+    "start_time": "2018-01-23T13:00:00.000000Z",
+    "end_time": "2018-01-23T23:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "HKAPZDFP",
+    "work_shift_date": "2018-01-23",
+    "creator": "747374",
+    "job_numbers": [
+      "143244"
+    ],
+    "start_time": "2018-01-23T13:00:00.000000Z",
+    "end_time": "2018-01-23T22:00:00.000000Z"
+  },
+  {
+    "work_shift_key": "MN64A4QF",
+    "work_shift_date": "2018-01-24",
+    "creator": "689309",
+    "job_numbers": [
+      "175699"
+    ],
+    "start_time": "2018-01-24T13:00:00.000000Z",
+    "end_time": "2018-01-24T23:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "9WDFK6WS",
+    "work_shift_date": "2018-01-22",
+    "creator": "689309",
+    "job_numbers": [
+      "175699"
+    ],
+    "start_time": "2018-01-22T13:00:00.000000Z",
+    "end_time": "2018-01-22T23:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "76AFSHLC",
+    "work_shift_date": "2018-01-22",
+    "creator": "566579",
+    "job_numbers": [
+      "678978"
+    ],
+    "start_time": "2018-01-22T13:00:00.000000Z",
+    "end_time": "2018-01-22T23:30:00.000000Z"
+  },
+  {
+    "work_shift_key": "FRK7LU6N",
+    "work_shift_date": "2018-01-23",
+    "creator": "566579",
+    "job_numbers": [
+      "678978"
+    ],
+    "start_time": "2018-01-23T13:00:00.000000Z",
+    "end_time": "2018-01-23T22:00:00.000000Z"
+  }
+]

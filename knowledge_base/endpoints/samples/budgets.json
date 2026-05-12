@@ -1,0 +1,72 @@
+[
+  {
+    "cost_code": "113011.49.55.94.278916L",
+    "job_number": "232279",
+    "quantities": null,
+    "hours": 2600.0,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "502302.39.29.56.253512L",
+    "job_number": "232279",
+    "quantities": null,
+    "hours": 208.0,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "102321.11.35.18.130902L",
+    "job_number": "979630",
+    "quantities": null,
+    "hours": 10.0,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "590820.25.90.17.742917L",
+    "job_number": "979630",
+    "quantities": 10151.0,
+    "hours": 380.0,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "740733.18.54.65.934537L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "740733.18.54.65.934537L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "ERP"
+  },
+  {
+    "cost_code": "529279.43.99.24.226334L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "529279.43.99.24.226334L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "ERP"
+  },
+  {
+    "cost_code": "879514.95.62.67.987477L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "FIELD"
+  },
+  {
+    "cost_code": "879514.95.62.67.987477L",
+    "job_number": "637786",
+    "quantities": null,
+    "hours": null,
+    "source": "ERP"
+  }
+]

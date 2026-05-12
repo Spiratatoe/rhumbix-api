@@ -1,0 +1,92 @@
+[
+  {
+    "name": "093 CONTROL JOINT 10\u2019 25/CTN",
+    "group": "Drywall",
+    "description": "",
+    "units": "1",
+    "part_number": "093cj",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "1-1/4\" CORNER BEAD 10\u2019 50/CTN",
+    "group": "Drywall",
+    "description": "",
+    "units": "1",
+    "part_number": "MCB10",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "1 1/4 in Metal Cornerbead",
+    "group": "Drywall Accessories",
+    "description": "1 10 ft long",
+    "units": "1",
+    "part_number": "MCB",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "1 1/4 in x #6 Pro-Twist Fine Thread Sharp Point Drywall Screw",
+    "group": "Drywall Accessories",
+    "description": "1 Box",
+    "units": "1",
+    "part_number": "SP114DW",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "17.6 oz Hi-Strength 90 Spray Adhesive",
+    "group": "Drywall Accessories",
+    "description": "1 17.6 oz tube",
+    "units": "1",
+    "part_number": "0000-453-501",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "29 Oz Tube Acoustical Sealant",
+    "group": "Caulking",
+    "description": "1 Tube",
+    "units": "1",
+    "part_number": "STISNS129W",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "30 Day Red Stucco Tape",
+    "group": "GR's",
+    "description": "1 Roll",
+    "units": "1",
+    "part_number": "UTC-145202",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "3/4\" -23/32\" 4'x8' Fire Retard Plywood",
+    "group": "Drywall",
+    "description": "",
+    "units": "1",
+    "part_number": "395015",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "3/4\"-23/32\" 4X8 FIRE RETA RD PLYWOOD",
+    "group": "Plywood",
+    "description": "1 Sheet",
+    "units": "1",
+    "part_number": "395015",
+    "is_active": true,
+    "custom_fields": null
+  },
+  {
+    "name": "3/4\"- 4X8 FIRE RETARD PLYWOOD",
+    "group": "",
+    "description": "",
+    "units": "1",
+    "part_number": "395015",
+    "is_active": true,
+    "custom_fields": null
+  }
+]

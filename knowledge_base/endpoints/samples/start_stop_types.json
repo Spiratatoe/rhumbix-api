@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Meal",
+    "is_break": true,
+    "is_active": true,
+    "created_by": "M346F8P",
+    "num_placeholders": 1
+  },
+  {
+    "name": "Break",
+    "is_break": true,
+    "is_active": true,
+    "created_by": "M346F8P",
+    "num_placeholders": 2
+  },
+  {
+    "name": "Shift",
+    "is_break": false,
+    "is_active": true,
+    "created_by": "M346F8P",
+    "num_placeholders": 1
+  }
+]

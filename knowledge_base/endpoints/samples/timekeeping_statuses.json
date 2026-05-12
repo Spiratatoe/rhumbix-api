@@ -1,0 +1,43 @@
+[
+  {
+    "name": "PENDING",
+    "label": "Not Approved",
+    "can_change_to_status": [
+      "FOREMAN",
+      "OFFICE_STAFF",
+      "PM",
+      "PAYROLL_ADMIN",
+      "ADMIN"
+    ]
+  },
+  {
+    "name": "SUPERVISOR_APPROVED",
+    "label": "Supervisor Approved",
+    "can_change_to_status": [
+      "PM",
+      "PAYROLL_ADMIN",
+      "ADMIN"
+    ]
+  },
+  {
+    "name": "APPROVED",
+    "label": "Payroll Verified",
+    "can_change_to_status": [
+      "PAYROLL_ADMIN",
+      "ADMIN"
+    ]
+  },
+  {
+    "name": "EXPORTED",
+    "label": "Exported",
+    "can_change_to_status": [
+      "PAYROLL_ADMIN",
+      "ADMIN"
+    ]
+  },
+  {
+    "name": "SYNCED",
+    "label": "Synced",
+    "can_change_to_status": []
+  }
+]
